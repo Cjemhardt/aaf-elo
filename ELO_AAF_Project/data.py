@@ -17,7 +17,7 @@ AL = ["Atlanta Legends", 1300, 0, "0-0", 8]
 w1_g1 = [1, SA, SD, 0]
 w1_g2 = [1, OA, AL, 0]
 w1_g3 = [1, BI, ME, 0]
-w1_g4 = [1, AL, SLC, 0]
+w1_g4 = [1, AH, SLC, 0]
 week_1 = [w1_g1, w1_g2, w1_g3, w1_g4]
 
 w2_g1 = [2, BI, SLC, 0]
@@ -26,14 +26,14 @@ w2_g3 = [2, SA, OA, 0]
 w2_g4 = [2, SD, AL, 0]
 week_2 = [w2_g1, w2_g2, w2_g3, w2_g4]
 
-w3_g1 = [3, BI, SLC, 0]
-w3_g2 = [3, ME, AH, 0]
-w3_g3 = [3, SA, OA, 0]
-w3_g4 = [3, SD, AL, 0]
+w3_g1 = [3, SLC, AH, 0]
+w3_g2 = [3, OA, ME, 0]
+w3_g3 = [3, BI, AL, 0]
+w3_g4 = [3, SD, SA, 0]
 week_3 = [w3_g1, w3_g2, w3_g3, w3_g4]
 
 
-
+season = [week_1, week_2, week_3]
 
 def week_results(week):
 
@@ -78,11 +78,12 @@ def week_results(week):
 
     return week1_results
 
+
 #print(week_results(week_1))
 
 #print(w1_g1)
 
-week_results(week_1)
+#week_results(week_1)
 
-print(w1_g1[3], w1_g2[3], w1_g3[3], w1_g4[3],)
+#print(w1_g1[3], w1_g2[3], w1_g3[3], w1_g4[3],)
 
